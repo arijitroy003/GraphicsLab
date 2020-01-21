@@ -1,0 +1,24 @@
+setcolor sets the current drawing color to color, which can range from 0 to getmaxcolor. The current drawing color is the value to which pixels are set when lines, and so on are drawn. The drawing colors shown below are available for the CGA and EGA, respectively.
+Palette Number    	Three Colors
+0 	LIGHTGREEN   	LIGHTRED 	YELLOW
+1 	LIGHTCYAN 	LIGHTMAGENTA   	WHITE
+2 	GREEN 	RED 	BROWN
+3 	CYAN 	MAGENTA 	LIGHTGRAY
+Name	Value
+BLACK 	0
+BLUE	1
+GREEN	2
+CYAN	3
+RED	4
+MAGENTA	5
+BROWN	6
+LIGHTGRAY	7
+DARKGRAY	8
+LIGHTBLUE	9
+LIGHTGREEN	10
+LIGHTCYAN	11
+LIGHTRED	12
+LIGHTMAGENTA	13
+YELLOW	14
+WHITE	15
+You select a drawing color by passing either the color number itself or the equivalent symbolic name to setcolor. For example, in CGAC0 mode, the palette contains four colors: the background color, light green, light red, and yellow. In this mode, either setcolor(3) or setcolor(CGA_YELLOW) selects a drawing color of yellow. 
